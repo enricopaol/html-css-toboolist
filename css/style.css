@@ -1,0 +1,35 @@
+/* RESET */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* FINE RESET */
+
+/* BODY STYLE*/
+body{
+    background-color: #f6f8f9;
+}
+/* FINE BODY STYLE*/
+
+
+/* HEADER */
+
+header{
+    background-color: #fff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header img{
+    vertical-align: middle;
+}
+
+header h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+}
+/* FINE HEADER*/
