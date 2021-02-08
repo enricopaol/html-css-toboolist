@@ -47,7 +47,7 @@ main {
 .links{
     padding-top: 20px;
     padding-left: 60px;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .links a {
@@ -70,7 +70,28 @@ main {
 /* FINE SEZIONE LINKS */
 
 hr{
-    border: 2px solid #f6f8f9;
+    border: 1px solid #f6f8f9;
 }
+
+/* SEZIONE TO-DO */
+.to-do{
+    padding-top: 35px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+.to-do li{
+    list-style-type:none;
+}
+
+.to-do h3{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.arrow{
+    font-size: 22px;
+}
+/* FINE SEZIONE TO-DO */
 
 /* FINE MAIN */
