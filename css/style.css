@@ -39,7 +39,9 @@ main {
     margin-top: 35px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
     width: 70%;
+    border-radius: 5px;
 
 }
 
@@ -75,9 +77,9 @@ hr{
 
 /* SEZIONE TO-DO */
 .to-do{
-    padding-top: 15px;
+    padding-top: 35px;
     padding-left: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
     font-weight: 500;
 }
 
@@ -90,10 +92,13 @@ hr{
     font-size: 20px;
     display: inline-block;
     font-weight: 700;
+    vertical-align: middle;
 }
 
 .arrow{
-    font-size: 22px;
+    font-size: 33px;
+    vertical-align: middle;
+    cursor: pointer;
 }
 
 .check{
@@ -122,20 +127,55 @@ hr{
     font-weight: bold;
 }
 
+
 .primo-livello{
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .secondo-livello{
-    margin: 5px 0;
+    margin-bottom: 20px;
 }
 
 .secondo-livello span{
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
-/* ELEMENTI COLORATI */
+/* ELEMENTI COLORATI (CARD) */
 
+.card{
+    display: inline-block;
+    color:white;
+    font-size: 10px;
+    margin-left: 5px;
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.card.editorial{
+    background-color: #47adf1;
+}
+
+.card.goals{
+    background-color: #9c72e4;
+}
+
+.card.recruiting{
+    background-color: #64c0a9;
+}
+
+.card.mobile{
+    background-color: #f29e33;
+}
+
+.card.website{
+    background-color: #d863a1;
+}
+
+.card.sales{
+    background-color: #b0c926;
+}
 /* FINE ELEMENTI COLORATI */
 
 /* FINE SEZIONE TO-DO */
