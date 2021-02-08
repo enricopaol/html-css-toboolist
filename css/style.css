@@ -3,19 +3,18 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 /* FINE RESET */
 
 /* BODY STYLE*/
 body{
     background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
 }
 /* FINE BODY STYLE*/
 
 
 /* HEADER */
-
 header{
     background-color: #fff;
     padding-left: 20px;
@@ -33,3 +32,45 @@ header h1{
     font-size: 40px;
 }
 /* FINE HEADER*/
+
+/* MAIN */
+main {
+    background-color: #fff;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+
+/* SEZIONE LINKS */
+.links{
+    padding-top: 20px;
+    padding-left: 60px;
+    margin-bottom: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 10px;
+}
+
+.links .add-task{
+    color: white;
+    background-color: #47adf1;
+    border-radius: 5px;
+}
+
+.links .add-section{
+    color: #c5cbd0;
+    border: 1px solid #c5cbd0;
+    border-radius: 5px;
+}
+/* FINE SEZIONE LINKS */
+
+hr{
+    border: 2px solid #f6f8f9;
+}
+
+/* FINE MAIN */
