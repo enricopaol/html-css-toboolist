@@ -75,23 +75,69 @@ hr{
 
 /* SEZIONE TO-DO */
 .to-do{
-    padding-top: 35px;
+    padding-top: 15px;
     padding-left: 60px;
     padding-bottom: 50px;
+    font-weight: 500;
 }
 
 .to-do li{
     list-style-type:none;
+
 }
 
 .to-do h3{
     font-size: 20px;
     display: inline-block;
+    font-weight: 700;
 }
 
 .arrow{
     font-size: 22px;
 }
+
+.check{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    color:#82cfbe;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cross{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    color:#ec746f;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 7px;
+    font-weight: bold;
+}
+
+.primo-livello{
+    margin: 20px 0;
+}
+
+.secondo-livello{
+    margin: 5px 0;
+}
+
+.secondo-livello span{
+    margin-right: 15px;
+}
+
+/* ELEMENTI COLORATI */
+
+/* FINE ELEMENTI COLORATI */
+
 /* FINE SEZIONE TO-DO */
 
 /* FINE MAIN */
